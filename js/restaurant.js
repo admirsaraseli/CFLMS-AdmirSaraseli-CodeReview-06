@@ -30,7 +30,7 @@ var Locations = /** @class */ (function () {
         this.time = time;
     }
     Locations.prototype.display = function () {
-        return "<div class=\"card px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + "</p>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
+        return "<div class=\"card bg-light px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + "</p>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
     };
     return Locations;
 }());
@@ -48,7 +48,7 @@ var Restaurant = /** @class */ (function (_super) {
         return _this;
     }
     Restaurant.prototype.display = function () {
-        return "<div class=\"card px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + ", " + this.telephoneNumber + "</p>\n                      <p class=\"card-text\">" + this.type + "</p>\n                      <a href=\"" + this.webAddress + "\" target=\"_blank\" class=\"card-link\">" + this.webAddress + "</a>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
+        return "<div class=\"card bg-light px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + ", " + this.telephoneNumber + "</p>\n                      <p class=\"card-text\">" + this.type + "</p>\n                      <a href=\"" + this.webAddress + "\" target=\"_blank\" class=\"card-link\">" + this.webAddress + "</a>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
     };
     return Restaurant;
 }(Locations));
@@ -64,7 +64,7 @@ var Events = /** @class */ (function (_super) {
         return _this;
     }
     Events.prototype.display = function () {
-        return "<div class=\"card px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + "</p>\n                      <p class=\"card-text\">" + this.price + "</p>\n                      <a href=\"" + this.webAddress + "\" target=\"_blank\" class=\"card-link\">" + this.webAddress + "</a>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
+        return "<div class=\"card bg-light px-2 py-2 mb-3\">\n                    <img src=\"img/" + this.image + "\" class=\"card-img-top\" alt=\"\">\n                    <div class=\"card-body\">\n                      <h5 class=\"card-title\">" + this.nameLocation + "</h5>\n                      <p class=\"card-text\">&#128205; " + this.address + ", " + this.zipCode + ", " + this.city + "</p>\n                      <p class=\"card-text\">" + this.price + "</p>\n                      <a href=\"" + this.webAddress + "\" target=\"_blank\" class=\"card-link\">" + this.webAddress + "</a>\n                    </div>\n                    <div class=\"card-footer\">\n                      <small class=\"text-muted\">From Admir, " + this.date + ", " + this.time + "</small>\n                    </div>\n                </div>\n               ";
     };
     return Events;
 }(Locations));
