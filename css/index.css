@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+  .card img {
+    display: none; } }
+/* Number of Cards by Row based on Viewport */
+@media (min-width: 576px) {
+  .card-deck .card {
+    min-width: 50.1%; } }
+@media (min-width: 768px) {
+  .card-deck .card {
+    min-width: 33.4%; } }
+@media (min-width: 992px) {
+  .card-deck .card {
+    min-width: 20.1%; } }
+@media (min-width: 1200px) {
+  .card-deck .card {
+    min-width: 20.1%; } }
+
+/*# sourceMappingURL=index.css.map */
