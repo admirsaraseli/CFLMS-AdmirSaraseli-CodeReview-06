@@ -4,6 +4,9 @@
 .jumbotron {
   background: radial-gradient(circle, #72dbec 23%, #17a2b8 100%); }
 
+.card {
+  background: radial-gradient(circle, #eee4cc 23%, #f0f4f5 88%); }
+
 @media screen and (max-width: 767px) {
   .card img {
     display: none; } }
